@@ -70,7 +70,8 @@
 				18998F4B22F21FED002378E8 /* Info.plist */,
 				18998F4322F21FEB002378E8 /* Pokedex.xcdatamodeld */,
 			);
-			path = Pokedex;
+			name = Pokedex;
+			path = "Pokédex";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +297,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MWKW98532A;
-				INFOPLIST_FILE = Pokedex/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Pokédex/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +315,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MWKW98532A;
-				INFOPLIST_FILE = Pokedex/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Pokédex/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
