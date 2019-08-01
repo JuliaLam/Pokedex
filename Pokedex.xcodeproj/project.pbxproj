@@ -14,7 +14,6 @@
 		18998F4722F21FED002378E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18998F4622F21FED002378E8 /* Assets.xcassets */; };
 		18998F4A22F21FED002378E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18998F4822F21FED002378E8 /* LaunchScreen.storyboard */; };
 		18998F5222F22A84002378E8 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18998F5122F22A84002378E8 /* ViewController2.swift */; };
-		18998F5422F22C0B002378E8 /* Bulbasaur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18998F5322F22C0B002378E8 /* Bulbasaur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		18998F4922F21FED002378E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18998F4B22F21FED002378E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18998F5122F22A84002378E8 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
-		18998F5322F22C0B002378E8 /* Bulbasaur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bulbasaur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +62,6 @@
 				18998F3E22F21FEB002378E8 /* ViewController.swift */,
 				18998F4022F21FEB002378E8 /* Main.storyboard */,
 				18998F4622F21FED002378E8 /* Assets.xcassets */,
-				18998F5322F22C0B002378E8 /* Bulbasaur.swift */,
 				18998F5122F22A84002378E8 /* ViewController2.swift */,
 				18998F4822F21FED002378E8 /* LaunchScreen.storyboard */,
 				18998F4B22F21FED002378E8 /* Info.plist */,
@@ -149,7 +146,6 @@
 				18998F5222F22A84002378E8 /* ViewController2.swift in Sources */,
 				18998F4522F21FEB002378E8 /* Pokedex.xcdatamodeld in Sources */,
 				18998F3D22F21FEB002378E8 /* AppDelegate.swift in Sources */,
-				18998F5422F22C0B002378E8 /* Bulbasaur.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
