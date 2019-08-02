@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zIj-he-UTb">
     <device id="ipad11_0rounded" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,6 +10,250 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="l4P-v4-gaZ">
+            <objects>
+                <viewController id="PlR-lw-P5m" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EMu-II-jR1">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-33" translatesAutoresizingMaskIntoConstraints="NO" id="YOr-0O-nBm">
+                                <rect key="frame" x="373" y="62" width="425" height="836"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-29" translatesAutoresizingMaskIntoConstraints="NO" id="URJ-Ju-wmX">
+                                <rect key="frame" x="523" y="387" width="125" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Swirlix #684" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNd-BY-K61">
+                                <rect key="frame" x="452" y="62" width="266" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="29"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUs-dc-rLg">
+                                <rect key="frame" x="415" y="550" width="341" height="311"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">To entangle its opponents in battle, it exudes white threads as sweet and sticky as cotton candy. It has fluffy white fur, and only eats sweets</string>
+                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-3" translatesAutoresizingMaskIntoConstraints="NO" id="L6q-Pc-Og9">
+                                <rect key="frame" x="20" y="95" width="304" height="659"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swirlixstat" translatesAutoresizingMaskIntoConstraints="NO" id="BDJ-yL-sWj">
+                                <rect key="frame" x="58" y="95" width="229" height="682"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Moveset" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rlf-cs-Uid">
+                                <rect key="frame" x="111" y="119" width="123" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Evolution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KDN-FI-nUb">
+                                <rect key="frame" x="133" y="773" width="89" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkT-6J-2Sv">
+                                <rect key="frame" x="58" y="915" width="726" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Swirlix is reminiscent of cotton candy, and has a primarily pink and white color scheme that makes it attractive to foes that it then entraps in its sticky strings.</string>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="25"/>
+                                <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swirlix" translatesAutoresizingMaskIntoConstraints="NO" id="9mN-4o-sh4">
+                                <rect key="frame" x="401" y="415" width="369" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="685" translatesAutoresizingMaskIntoConstraints="NO" id="MDL-dR-BjX">
+                                <rect key="frame" x="175" y="796" width="165" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NmI-qk-4Qd">
+                                <rect key="frame" x="0.0" y="0.0" width="834" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="Zeh-Jo-XPU">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="n5d-ql-EOM">
+                                            <color key="tintColor" red="0.2346881032" green="0.56430369619999998" blue="0.96828371290000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <segue destination="7Pk-cN-Y4k" kind="show" id="lUO-ad-wBv"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cotton Candy Pokemon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NNU-4e-gdn">
+                                <rect key="frame" x="490" y="95" width="221" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="684" translatesAutoresizingMaskIntoConstraints="NO" id="oFM-1q-eSD">
+                                <rect key="frame" x="441" y="119" width="289" height="272"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="684" translatesAutoresizingMaskIntoConstraints="NO" id="3Is-Ah-MfY">
+                                <rect key="frame" x="58" y="815" width="127" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93859869241714478" green="0.73124009370803833" blue="0.88285893201828003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="1SL-kI-DNK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0T6-Lx-t9b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-75.539568345323744" y="-1175.3768844221106"/>
+        </scene>
+        <!--Grass View Controller-->
+        <scene sceneID="xLY-c6-vl6">
+            <objects>
+                <viewController id="zIj-he-UTb" customClass="GrassViewController" customModule="Pokedex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="foj-GB-ytm">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GqX-7z-fr5">
+                                <rect key="frame" x="0.0" y="0.0" width="834" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Grass" id="Wx3-2f-WfF"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsC-WW-ghM">
+                                <rect key="frame" x="94" y="127" width="250" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="grasspatch"/>
+                                <connections>
+                                    <action selector="showMessage:" destination="zIj-he-UTb" eventType="touchUpInside" id="nma-fZ-xK9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3gY-9F-esL">
+                                <rect key="frame" x="94" y="452" width="250" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="grasspatch"/>
+                                <connections>
+                                    <action selector="showMessage:" destination="zIj-he-UTb" eventType="touchUpInside" id="FbF-Fb-lym"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWJ-D3-j9R">
+                                <rect key="frame" x="490" y="452" width="250" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="grasspatch"/>
+                                <connections>
+                                    <action selector="showMessage:" destination="zIj-he-UTb" eventType="touchUpInside" id="qpA-B0-v3i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SAw-D6-Lis">
+                                <rect key="frame" x="490" y="787" width="250" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="grasspatch"/>
+                                <connections>
+                                    <action selector="showMessage:" destination="zIj-he-UTb" eventType="touchUpInside" id="f18-ao-4yd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5pS-aR-vWi">
+                                <rect key="frame" x="94" y="787" width="250" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="grasspatch"/>
+                                <connections>
+                                    <action selector="showMessage:" destination="zIj-he-UTb" eventType="touchUpInside" id="phy-tB-du6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R73-sc-3vy">
+                                <rect key="frame" x="490" y="126" width="250" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="grasspatch"/>
+                                <connections>
+                                    <action selector="showMessage:" destination="zIj-he-UTb" eventType="touchUpInside" id="K48-mz-xRU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.44127032160758972" green="0.78970193862915039" blue="0.63477712869644165" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Dap-Lx-aGI"/>
+                    </view>
+                    <connections>
+                        <segue destination="6l8-Yi-0JN" kind="show" identifier="FoundPokemonSegue" id="NZS-UT-KHZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ADa-li-dg1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="578.41726618705036" y="-1179.3969849246232"/>
+        </scene>
+        <!--View Controller Pokemon-->
+        <scene sceneID="Pi5-ZW-Rpa">
+            <objects>
+                <viewController id="6l8-Yi-0JN" customClass="ViewControllerPokemon" customModule="Pokedex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gTQ-qG-9GD">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sky" translatesAutoresizingMaskIntoConstraints="NO" id="90r-KW-LXS">
+                                <rect key="frame" x="-236" y="6" width="1307" height="678"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7mK-d6-rjK">
+                                <rect key="frame" x="159" y="409" width="517" height="388"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RHp-z1-JIU">
+                                <rect key="frame" x="0.0" y="0.0" width="834" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Found Pokemon" id="pFT-VW-kDs">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="Eba-DP-5Be">
+                                            <connections>
+                                                <segue destination="zIj-he-UTb" kind="show" id="h9H-aO-mAW"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Pokedex" id="Z27-Ti-wKl">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="show" id="Ece-MS-CdJ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oCp-Ai-oP2">
+                                <rect key="frame" x="268" y="143" width="298" height="189"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CFe-RU-zee">
+                                <rect key="frame" x="20" y="1027" width="794" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.55573564769999995" green="0.66890114550000002" blue="0.45204377169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55573564767837524" green="0.66890114545822144" blue="0.45204377174377441" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Lju-CW-dm1"/>
+                    </view>
+                    <connections>
+                        <outlet property="congratsText" destination="oCp-Ai-oP2" id="wMm-LI-aqm"/>
+                        <outlet property="foundPokeLabel" destination="CFe-RU-zee" id="1kR-n6-OCH"/>
+                        <outlet property="picPokemonFound" destination="7mK-d6-rjK" id="bX2-Ql-BPL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ELn-xt-PRP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1317" y="-1179"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="25A-ya-LWu">
             <objects>
@@ -134,6 +378,11 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Pokédex" id="t0i-fO-MFF">
+                                        <barButtonItem key="leftBarButtonItem" title="Find More Pokemon!" id="3fb-Tc-MYr">
+                                            <connections>
+                                                <segue destination="zIj-he-UTb" kind="show" id="R2B-nk-aeE"/>
+                                            </connections>
+                                        </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Next" id="UeT-ej-nBv">
                                             <connections>
                                                 <segue destination="7Pk-cN-Y4k" kind="show" id="ZaQ-Yt-8ve"/>
@@ -771,11 +1020,16 @@
                                                 <segue destination="BYZ-38-t0r" kind="show" id="Rro-tQ-cQk"/>
                                             </connections>
                                         </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Find More Pokemon!" id="ZEo-ft-lZp">
+                                            <connections>
+                                                <segue destination="zIj-he-UTb" kind="show" id="b6p-Jv-XeW"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITj-r6-al6">
-                                <rect key="frame" x="133" y="111" width="215" height="215"/>
+                                <rect key="frame" x="82" y="127" width="329" height="329"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="212"/>
                                 <connections>
@@ -783,7 +1037,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yEa-qE-VWB">
-                                <rect key="frame" x="133" y="292" width="215" height="215"/>
+                                <rect key="frame" x="48" y="415" width="375" height="375"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="303"/>
                                 <connections>
@@ -791,22 +1045,15 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMJ-ZP-XBN">
-                                <rect key="frame" x="133" y="465" width="215" height="215"/>
+                                <rect key="frame" x="103" y="803" width="264" height="264"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="484"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XuY-z2-Sma">
-                                <rect key="frame" x="133" y="688" width="201" height="201"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="336"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Izt-Me-r9l">
-                                <rect key="frame" x="133" y="887" width="215" height="215"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="619"/>
+                                <connections>
+                                    <segue destination="6wR-CR-01N" kind="show" id="2qT-YO-bhA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yla-hP-lC6">
-                                <rect key="frame" x="504" y="111" width="197" height="188"/>
+                                <rect key="frame" x="472" y="156" width="263" height="251"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="580"/>
                                 <connections>
@@ -814,24 +1061,20 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8wZ-FF-efJ">
-                                <rect key="frame" x="533" y="320" width="158" height="158"/>
+                                <rect key="frame" x="534" y="524" width="158" height="158"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="361"/>
+                                <connections>
+                                    <segue destination="hLx-Ie-BRc" kind="show" id="qaR-Ap-1V5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLV-2B-wDx">
-                                <rect key="frame" x="510" y="495" width="205" height="205"/>
+                                <rect key="frame" x="501" y="834" width="205" height="205"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="684"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czM-Dy-vbp">
-                                <rect key="frame" x="505" y="674" width="215" height="215"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="399"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EdI-jN-Ur0">
-                                <rect key="frame" x="495" y="887" width="215" height="215"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="095"/>
+                                <connections>
+                                    <segue destination="PlR-lw-P5m" kind="show" id="BV8-pO-vzD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1417,7 +1660,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCo-KT-rHF">
                                 <rect key="frame" x="423" y="538" width="341" height="311"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">The fin on Mudkip's head acts as highly sensitive radar. Using this fin to sense movements of water and air, this Pokémon can determine what is taking place around it without using its eyes.</string>
+                                <string key="text">Snorunt live in regions with heavy snowfall. In seasons without snow, such as spring and summer, this Pokémon steals away to live quietly among stalactites and stalagmites deep in caverns.</string>
                                 <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1438,37 +1681,29 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Evolution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SY1-HS-Bmw">
-                                <rect key="frame" x="141" y="761" width="89" height="45"/>
+                                <rect key="frame" x="139" y="750" width="89" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LGu-he-M5X">
-                                <rect key="frame" x="66" y="903" width="726" height="238"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Mudkip is a water type starter Pokemon introduced in Generation III, alongside Torchic and Treecko. Based on an axolotl, Mudkip is a very docile Pokemon that sleeps by burying itself in the mud near the water's edge. It can crush rocks much larger than itself.</string>
-                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="25"/>
-                                <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="580b57fcd9996e24bc43c320" translatesAutoresizingMaskIntoConstraints="NO" id="m3I-qz-HAv">
-                                <rect key="frame" x="61" y="811" width="72" height="67"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="361" translatesAutoresizingMaskIntoConstraints="NO" id="m3I-qz-HAv">
+                                <rect key="frame" x="104" y="828" width="72" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="259" translatesAutoresizingMaskIntoConstraints="NO" id="nYh-k9-Cgz">
-                                <rect key="frame" x="141" y="803" width="89" height="92"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="362" translatesAutoresizingMaskIntoConstraints="NO" id="nYh-k9-Cgz">
+                                <rect key="frame" x="204" y="778" width="84" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="260" translatesAutoresizingMaskIntoConstraints="NO" id="vXh-4Y-2mH">
-                                <rect key="frame" x="219" y="793" width="123" height="120"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="478" translatesAutoresizingMaskIntoConstraints="NO" id="vXh-4Y-2mH">
+                                <rect key="frame" x="200" y="855" width="88" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kip" translatesAutoresizingMaskIntoConstraints="NO" id="QhC-Gc-oGJ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="movessno" translatesAutoresizingMaskIntoConstraints="NO" id="QhC-Gc-oGJ">
                                 <rect key="frame" x="63" y="161" width="240" height="499"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mudkipev" translatesAutoresizingMaskIntoConstraints="NO" id="uuG-YF-bF0">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="snowrunt" translatesAutoresizingMaskIntoConstraints="NO" id="uuG-YF-bF0">
                                 <rect key="frame" x="423" y="441" width="341" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1479,6 +1714,9 @@
                                     <navigationItem id="Gyv-hS-q3r">
                                         <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="dLq-TW-m7e">
                                             <color key="tintColor" red="0.2346881032" green="0.56430369619999998" blue="0.96828371290000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <segue destination="7Pk-cN-Y4k" kind="show" id="YNV-fl-n5A"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -1490,6 +1728,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LGu-he-M5X">
+                                <rect key="frame" x="63" y="903" width="726" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Snorunt can persist in the coldest temperatures. It is a very social Pokemon, who are often found in groups of five. When there is not snow outside, they dwell in caves. They have been known to visit humans. They can evolve into either a Glalie or a Froslass, depending on gender and whether it is exposed to a dawn stone.</string>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="25"/>
+                                <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.86703287269999996" green="0.90030804249999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Gcb-U8-t8Q"/>
@@ -1497,7 +1743,110 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zWp-2j-Spt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1853" y="-527"/>
+            <point key="canvasLocation" x="1852.517985611511" y="-527.1356783919598"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RH5-hP-uRB">
+            <objects>
+                <viewController id="6wR-CR-01N" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G3c-0X-AC7">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled copy" translatesAutoresizingMaskIntoConstraints="NO" id="5Oi-6y-0BB">
+                                <rect key="frame" x="381" y="81" width="425" height="836"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-32" translatesAutoresizingMaskIntoConstraints="NO" id="0O4-3q-7Rq">
+                                <rect key="frame" x="531" y="418" width="125" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Palkia #484" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="861-ne-mCw">
+                                <rect key="frame" x="475" y="102" width="266" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="29"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-3" translatesAutoresizingMaskIntoConstraints="NO" id="yVP-Nr-vUG">
+                                <rect key="frame" x="28" y="114" width="304" height="659"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="palkiamove" translatesAutoresizingMaskIntoConstraints="NO" id="075-SF-jEB">
+                                <rect key="frame" x="66" y="114" width="229" height="682"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Moveset" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgK-Kb-HkI">
+                                <rect key="frame" x="119" y="138" width="123" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="484" translatesAutoresizingMaskIntoConstraints="NO" id="YzW-ep-wjV">
+                                <rect key="frame" x="475" y="138" width="289" height="272"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Evolution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Efk-db-qUq">
+                                <rect key="frame" x="141" y="792" width="89" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="palkia" translatesAutoresizingMaskIntoConstraints="NO" id="gGF-Z1-0RI">
+                                <rect key="frame" x="409" y="434" width="369" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="484" translatesAutoresizingMaskIntoConstraints="NO" id="wS2-U2-JeF">
+                                <rect key="frame" x="131" y="823" width="111" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jqr-LL-dWh">
+                                <rect key="frame" x="0.0" y="0.0" width="834" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="cm4-qG-c9E">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="F10-ib-pRq">
+                                            <color key="tintColor" red="0.2346881032" green="0.56430369619999998" blue="0.96828371290000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <connections>
+                                                <segue destination="7Pk-cN-Y4k" kind="show" id="4H7-Qa-KXL"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spatial Pokemon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPg-vo-u2B">
+                                <rect key="frame" x="524" y="138" width="191" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ijP-R6-dft">
+                                <rect key="frame" x="423" y="582" width="341" height="311"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">It is said to live in a gap in the spatial dimension parallel to ours. It appears in mythology. A legendary Pokémon of Sinnoh. It is said that space becomes more stable with Palkia's every breath. It has the ability to distort space. A legendary Pokemon, paired with Dialga. They represent Space and Time.</string>
+                                <fontDescription key="fontDescription" name="PingFangHK-Regular" family="PingFang HK" pointSize="22"/>
+                                <color key="textColor" red="0.98376573119999999" green="0.89190863340000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LtD-dG-Tcc">
+                                <rect key="frame" x="66" y="901" width="726" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Palkia has the ability to warp space, though it was said to create alternate realities as well. Palkia lives in a different dimension, making its behavior nearly impossible to study. However, Palkia has been seen in violent conflicts with its counterpart, Dialga. It has been known to be very protective of its home as well. Palkia is the only known Pokémon that can learn Spacial Rend.</string>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.09101191908121109" green="0.10248976200819016" blue="0.41449806094169617" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="kTe-jY-biw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mz8-zg-Z8L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2482.7338129496407" y="-524.1206030150754"/>
         </scene>
     </scenes>
     <resources>
@@ -1507,7 +1856,6 @@
         <image name="026" width="215" height="215"/>
         <image name="037" width="215" height="215"/>
         <image name="038" width="215" height="215"/>
-        <image name="095" width="215" height="215"/>
         <image name="123" width="215" height="215"/>
         <image name="172" width="215" height="215"/>
         <image name="212" width="215" height="215"/>
@@ -1517,9 +1865,9 @@
         <image name="259" width="215" height="215"/>
         <image name="260" width="215" height="215"/>
         <image name="303" width="215" height="215"/>
-        <image name="336" width="215" height="215"/>
         <image name="361" width="475" height="475"/>
-        <image name="399" width="215" height="215"/>
+        <image name="362" width="215" height="215"/>
+        <image name="478" width="215" height="215"/>
         <image name="484" width="215" height="215"/>
         <image name="517" width="215" height="215"/>
         <image name="518" width="215" height="215"/>
@@ -1528,8 +1876,8 @@
         <image name="580" width="215" height="215"/>
         <image name="580b57fcd9996e24bc43c320" width="797" height="902"/>
         <image name="581" width="215" height="215"/>
-        <image name="619" width="215" height="215"/>
         <image name="684" width="215" height="215"/>
+        <image name="685" width="215" height="215"/>
         <image name="778" width="215" height="215"/>
         <image name="Mawilemoves" width="148" height="436"/>
         <image name="Phanpystat" width="267" height="65"/>
@@ -1557,12 +1905,16 @@
         <image name="Unknown-3" width="272" height="182"/>
         <image name="Unknown-30" width="217" height="120"/>
         <image name="Unknown-31" width="339" height="148"/>
+        <image name="Unknown-32" width="339" height="148"/>
+        <image name="Unknown-33" width="225" height="189"/>
         <image name="Unknown-7" width="224" height="188"/>
         <image name="Unknown-8" width="224" height="189"/>
         <image name="Untitled 2" width="221" height="146"/>
+        <image name="Untitled copy" width="261" height="141"/>
         <image name="bulbst" width="152" height="330"/>
         <image name="ducklettt" width="268" height="64"/>
         <image name="ev" width="268" height="63"/>
+        <image name="grasspatch" width="250" height="240"/>
         <image name="images" width="339" height="148"/>
         <image name="images-1" width="339" height="148"/>
         <image name="images-2" width="339" height="148"/>
@@ -1571,20 +1923,28 @@
         <image name="mawile" width="267" height="63"/>
         <image name="mimikyu" width="265" height="64"/>
         <image name="mimikyus" width="155" height="353"/>
+        <image name="movessno" width="160" height="286"/>
         <image name="mudkipev" width="264" height="65"/>
         <image name="munna2" width="153" height="370"/>
         <image name="munnastat" width="263" height="64"/>
         <image name="ninetales" width="269" height="55"/>
         <image name="ninetalestats" width="159" height="131"/>
+        <image name="palkia" width="268" height="63"/>
+        <image name="palkiamove" width="157" height="306"/>
         <image name="phanpystats" width="153" height="284"/>
         <image name="pichustat" width="266" height="68"/>
         <image name="scissor" width="160" height="420"/>
         <image name="scraggymove" width="170" height="354"/>
         <image name="scraggys" width="269" height="66"/>
+        <image name="sky" width="1280" height="1024"/>
+        <image name="snowrunt" width="268" height="64"/>
+        <image name="swirlix" width="265" height="64"/>
+        <image name="swirlixstat" width="147" height="353"/>
         <image name="yeet" width="160" height="328"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="P8M-WL-cs1"/>
-        <segue reference="vdX-Up-i4z"/>
+        <segue reference="ZaQ-Yt-8ve"/>
+        <segue reference="Rro-tQ-cQk"/>
+        <segue reference="b6p-Jv-XeW"/>
     </inferredMetricsTieBreakers>
 </document>
