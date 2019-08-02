@@ -20,7 +20,9 @@ class GrassViewController: UIViewController {
             grassMessage = "You found a Pokemon!"
             monWasFound = true
         } else if (randNum == 2) {
-            grassMessage = "You found a useless potato."
+            grassMessage = "You found a rotten Oran Berry."
+        } else if (randNum == 3) {
+            grassMessage = "You found a useless Zubat."
         } else {
             grassMessage = "No Pokemon here."
         }
